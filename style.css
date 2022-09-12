@@ -27,6 +27,10 @@ main{
     margin-left: 10%;
     margin-right: 10%;
 }
+footer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 /* Titolo e data pubblicazione  */
 #Autore{
@@ -81,4 +85,29 @@ td{
 #riga1,
 #riga3{
     background-color: rgb(119, 238, 238);
+}
+
+/* Footer */
+
+#Piedipagina{
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+a{
+    color: white;
+    font-weight: bold;
+}
+#link1{
+    
+    height: 200px;
+    width: 200px;
+    background-image: url("img/monitor.jpg");
+    margin-bottom: 10px;
+}
+#link2{
+    height: 200px;
+    width: 200px;
+    background-image: url("img/graph.jpg");
+    margin-bottom: 20px;
 }
