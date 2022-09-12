@@ -70,7 +70,9 @@ table{
 
 thead{
     background-color: rgb(45, 134, 189);
+    text-align: left;
 }
+
 thead .colonna{
     color: white;
 }
