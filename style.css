@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+}
+
+
+header{
+    background-color: aqua;
+    background-image: url("img/pattern.png");
+    height: 100px;
+    background-size: 400px;
+    position: relative;
+}
+header img{
+    width: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    bottom: 0%;
+
+}
