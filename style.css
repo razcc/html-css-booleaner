@@ -3,6 +3,9 @@
 }
 
 
+
+
+                  /* CSS DEL HEADER */
 header{
     background-color: aqua;
     background-image: url("img/pattern.png");
@@ -12,9 +15,44 @@ header{
 }
 header img{
     width: 150px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     position: absolute;
     bottom: 0%;
-
 }
+
+
+                    /* CSS DEL MAIN */
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Titolo e data pubblicazione  */
+#Autore{
+    color: rgb(5, 147, 255);
+}
+.Autore{
+    color: gray;
+}
+#data{
+    font-size: smaller;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.Risorse-foto{
+    font-size: small;
+}
+
+/* paragrafo ed elenco */
+p,
+ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li{
+    margin-left: -20px;
+}
+
