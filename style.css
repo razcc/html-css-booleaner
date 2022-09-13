@@ -1,36 +1,33 @@
 *{
     margin: 0px;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-
+.container{
+    width: 70%;
+    margin: auto;
+}
 
 
                   /* CSS DEL HEADER */
 header{
     background-color: aqua;
     background-image: url("img/pattern.png");
-    height: 100px;
     background-size: 400px;
+    height: 100px;
     position: relative;
 }
 header img{
     width: 150px;
-    margin-left: 10%;
-    margin-right: 10%;
     position: absolute;
     bottom: 0%;
 }
 
 
                     /* CSS DEL MAIN */
-main{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-footer{
-    margin-left: 10%;
-    margin-right: 10%;
-}
+
+
 
 /* Titolo e data pubblicazione  */
 #Autore{
@@ -57,8 +54,9 @@ ul{
 }
 
 li{
-    margin-left: -20px;
+    margin-left: 20px;
 }
+
 .Evidenziato{
     background-color: yellow;
 }
@@ -89,7 +87,7 @@ td{
     background-color: rgb(119, 238, 238);
 }
 
-/* Footer */
+                        /* FOOTER */
 
 #Piedipagina{
     color: gray;
